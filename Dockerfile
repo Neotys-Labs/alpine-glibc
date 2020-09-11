@@ -1,7 +1,7 @@
-FROM alpine:3.10
+FROM alpine:3.12
 
 ENV GLIBC_REPO=https://github.com/sgerrand/alpine-pkg-glibc \
-    GLIBC_VERSION=2.30-r0 \
+    GLIBC_VERSION=2.32-r0 \
     LANG=C.UTF-8 \
     LOG_ALSO_TO_CONSOLE=true
 
