@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.18.5
 
 ENV GLIBC_REPO=https://github.com/sgerrand/alpine-pkg-glibc \
     GLIBC_VERSION=2.30-r0 \
